@@ -1,0 +1,16 @@
+
+= cadquery-notes
+
+Notes about CadQuery
+
+== Installation VSCode
+
+[source]
+-----
+python -m venv .venv --prompt "CadQuery"
+. .venv/bin/activate
+pip install -U pip
+pip install git+https://github.com/CadQuery/cadquery.git
+pip install cadquery-server
+cq-server run
+-----
